@@ -146,7 +146,8 @@ readFile('./android/app/src/main/res/values/strings.xml')
 
               const javaFiles = [
                 `MainActivity.java`,
-                `MainApplication.java`
+                `MainApplication.java`,
+                `SplashActivity.java`
               ];
 
               if (bundleID) {
